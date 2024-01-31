@@ -176,16 +176,13 @@ img {
         margin-bottom: 0rem;
     }
 
-    .steps .col:first-child{
+    .steps .col{
+        width: 100%;
         margin-bottom: 70px;
     }
 
     .steps .col:last-child{
-        margin-top: 70px;
-    }
-
-    .steps .col{
-        width: 100%;
+        margin-bottom: 0px;
     }
 
     .steps .col img{
@@ -209,12 +206,8 @@ img {
     .why-us p{
         font-size: 1.3rem;
     }
-    
-    .why-us .col-right{
-        width: 100%;
-    }
 
-    .why-us .col-left{
+    .why-us .col-right , .why-us .col-left{
         width: 100%;
     }
 }
