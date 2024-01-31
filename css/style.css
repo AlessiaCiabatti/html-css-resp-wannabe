@@ -173,7 +173,7 @@ img {
     }
 /* steps */
     .steps{
-        margin: 0rem;
+        margin-bottom: 0rem;
     }
 
     .steps .col:first-child{
@@ -197,7 +197,7 @@ img {
     margin-bottom: 0;
     padding: 3rem 0;
     }
-    
+
     .why-us li:first-child{
         padding-top: 90px;
     }
@@ -215,6 +215,13 @@ img {
     }
 
     .why-us .col-left{
+        width: 100%;
+    }
+}
+
+/*  */
+@media screen and (max-width:1160px) and (min-width:768px){
+    .container{
         width: 100%;
     }
 }
