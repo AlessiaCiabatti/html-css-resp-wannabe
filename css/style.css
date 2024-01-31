@@ -192,6 +192,16 @@ img {
         height: 280px;
     }
 /* why-us */
+.why-us{
+    background-color: #222222;
+    margin-bottom: 0;
+    padding: 3rem 0;
+    }
+    
+    .why-us li:first-child{
+        padding-top: 90px;
+    }
+
     .why-us h3{
         font-size: 2rem;
     }
@@ -206,11 +216,5 @@ img {
 
     .why-us .col-left{
         width: 100%;
-    }
-
-    .why-us{
-        background-color: black;
-        margin-bottom: 0;
-        padding: 3rem 0;
     }
 }
