@@ -143,21 +143,21 @@ img {
         font-size: 3.2rem;
     }
 
-    .lessons,.steps,.why-us h2{
-        font-size: 2.6rem;
+    .container h2{
+        font-size: 2.5rem;
     }
 
     .row{
         flex-direction: column;
         align-items: center;
     }
-
+/* lessons */
     .lessons .col{
-        width: 90%;
+        width: 100%;
     }
 
     .lessons .col img{
-        height: 100%;
+        height: 250px;
     }
 
     .lessons,.steps .title{
@@ -165,22 +165,52 @@ img {
     }
 
     .lessons,.steps .col p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     
-    .col:first-child{
+    .lessons .col:first-child{
         margin-bottom: 70px;
+    }
+/* steps */
+    .steps{
+        margin: 0rem;
+    }
+
+    .steps .col:first-child{
+        margin-bottom: 70px;
+    }
+
+    .steps .col:last-child{
+        margin-top: 70px;
     }
 
     .steps .col{
         width: 100%;
     }
 
+    .steps .col img{
+        height: 280px;
+    }
+/* why-us */
+    .why-us h3{
+        font-size: 2rem;
+    }
+
+    .why-us p{
+        font-size: 1.3rem;
+    }
+    
     .why-us .col-right{
         width: 100%;
     }
 
     .why-us .col-left{
         width: 100%;
+    }
+
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+        padding: 3rem 0;
     }
 }
